@@ -161,11 +161,12 @@ OSD-Insight is an ongoing empirical research project. Its goal is to understand 
 
 ## 👥 Team Members
 
-This research project is conducted by:
+This project is conducted by:
 
 - **Ridoy Kumar Adhikary**
 - **Iftekhar Alam Fahim**
 - **Rafi Ahmed**
+  
 **Institution:** Sichuan University  
 **Research Area:** Open-Set Object Detection · Computer Vision · Deep Learning · Trustworthy AI
 
