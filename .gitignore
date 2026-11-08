@@ -1,0 +1,56 @@
+# --- dataset blobs (keep metadata only) ---
+dataset/open_images_v7/images/
+dataset/open_images_v7/annotations/
+dataset/open_images_v7/metadata/
+dataset/open_images_v7/logs/
+dataset/open_images_v7/splits/*.json
+dataset/open_images_v7_p1/images/
+dataset/open_images_v7_p1/logs/
+dataset/open_images_v7_p1/manifests/
+dataset/lvis/images/
+dataset/lvis/annotations/
+dataset/lvis/eval_materialized/
+dataset/lvis/downloads/
+
+# --- weights / caches ---
+checkpoints/*.pt
+checkpoints/*.pth
+**/*.pt
+**/*.pth
+experiments/phases/p3a/cache/
+
+# --- local / non-publish ---
+archive/
+.cursor/
+papers/**/*.pdf
+papers/*.pdf
+project_records/ACTIVITY_LOG.md
+project_records/CODE_CHANGES_LOG.md
+CONTRIBUTORS.md
+SHARE_WITH_TEAM.txt
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# --- runtime ---
+*.log
+nohup.out
+tools/gated_auto/logs/
+tools/gated_auto/state/
+tools/gated_auto/locks/
+tools/gated_auto/auth/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.local.yaml
+*.local.json

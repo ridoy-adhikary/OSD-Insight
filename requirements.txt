@@ -1,0 +1,12 @@
+# OSD-Insight — use conda env `ridoy` on the shared server.
+# pip install -r requirements.txt  (into ridoy only)
+
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+Pillow>=10.0
+PyYAML>=6.0
+tqdm>=4.65
+scipy>=1.10
+matplotlib>=3.7
+opencv-python>=4.8
